@@ -1,7 +1,7 @@
 // app/loginScreen.js
 import React, { useState, useEffect } from "react";
 import { StyleSheet, View, TextInput, Text, Alert, TouchableOpacity } from "react-native";
-import { auth } from "./config/firebase"; // ✅ Corrected import path
+import { auth } from "./config/firebase"; 
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
